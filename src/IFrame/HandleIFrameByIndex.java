@@ -22,4 +22,6 @@ public class HandleIFrameByIndex
 	hi=l.findElement(By.xpath("//iframe[@name='D54B85GFG8']"));
 	l.switchTo().frame(hi);
 	}
+	
+	
 }
