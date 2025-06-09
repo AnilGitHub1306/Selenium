@@ -29,8 +29,9 @@ public class example2_mouseLeftClick
 			
 //		act.moveToElement(cart).perform();
 //		act.click().perform();
-		//act.moveToElement(cart).click().perform();
+//		act.moveToElement(cart).click().perform();
 		act.click(cart).perform();
+		System.out.println("Click action performed");
 		
 		
 	}
