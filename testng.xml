@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Suite">
+  <test thread-count="2" parallel="classes" name="Test">
+    <classes>
+	  <class name="practice.TC01_VerifyTheNumberoflinksPresentOnPage"/>
+      <class name="Com.DemoQA.TestPackage.TC02_VerifyTheTextboxFiedAcceptingTheText"/>
+      <class name="practice.TC02_VerifyBrokenLinks"/>
+      <class name="practice.TC03_VerifyThatTheBrokenImages"/>
+      <class name="practice.TC04_VerifyTheFileUpload"/>
+      <class name="practice.TC04_VerifyThatUploadworkingFine"/>
+      <class name="Com.DemoQA.TestPackage.TC04_VerifyTheRadioButtonsAreClickable"/>
+     
+      <class name="practice.TC06_VerifyFileUploadByRobotClass"/>
+      <class name="practice.TC07_VerifyTheNewWindowFunctionality"/>
+      <class name="practice.TC08_VerifyNewWindowMassage"/>
+      <class name="practice.TC09_HandleAlertAfterClick"/>
+      <class name="practice.TC10_HandleAlertAfter5SecondOnClick"/>
+      <class name="practice.TC11_HandleAlertAceeptOrDismissedOnClick"/>
+      <class name="practice.TC12_HandleAlertOnClickBySendingName"/>
+      <class name="practice.TC13_HandleFrames"/>
+      <class name="practice.TC14_lickActionByJavaScriptExecutor"/>
+      <class name="practice.TC15_CounrTotalLinkWhenFilterBySamsung"/>
+      <class name="practice.TC17_Form_DateAndTime"/>
+      <class name="practice.TC18_handlenewtab"/>
+      <class name="practice.TC19_InputeTextWithoutSendKeysOrByJavaScriptExecutor"/>
+      <class name="practice.TC20_InputfromExelSheet"/>
+      <class name="practice.TC21_PracticeForm"/>
+      <class name="practice.TC22_TakseScreenshot"/>
+   
+
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

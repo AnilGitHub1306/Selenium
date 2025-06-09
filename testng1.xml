@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="classes" name="Suite">
+  <test thread-count="6" parallel="classes" name="Test">
+    <classes>
+      <class name="Com.DemoQA.TestPackage.TC02_VerifyTheTextboxFiedAcceptingTheText"/>
+      <class name="Com.DemoQA.TestPackage.TC05_VerifyThatNumberofLinksPresent"/> <class name="practice.TC01_VerifyTheNumberoflinksPresentOnPage"/>
+      <class name="Com.DemoQA.TestPackage.TC01_VerifyTheFunctionalityOfElementButton"/>
+      <class name="Com.DemoQA.TestPackage.BaseClass"/>
+      <class name="Com.DemoQA.TestPackage.TC06_VerifyTheLinkBrokenandnormal"/>
+      <class name="Com.DemoQA.TestPackage.TC03_VerifyThatHomeButtonClickeble"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
