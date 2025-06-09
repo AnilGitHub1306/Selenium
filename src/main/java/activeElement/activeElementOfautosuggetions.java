@@ -56,6 +56,7 @@ public class activeElementOfautosuggetions {
 			if (option.getText().equalsIgnoreCase("youtube video")) {
 				System.out.println("required option ounf and clicked: ");
 				option.click();
+				System.out.println("clicked the button");
 				break;
 			}
 
